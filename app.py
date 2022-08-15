@@ -8,7 +8,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # load our model pipeline object
-model = joblib.load("/Users/sdevega/PycharmProjects/DataSci_inf/Machine Learning/Model Deployment/model.joblib")
+model = joblib.load("model.joblib")
 
 # outline the homepage or "default" page
 # when a user visits this page, the home function will be run
